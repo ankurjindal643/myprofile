@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./navbar";
 import Home from "./home";
-import "./style.css"
+import "./style.css";
 
 let App = () => {
   let [navActive, setNavActive] = useState(false);
@@ -13,11 +13,10 @@ let App = () => {
     <Router>
       <div>
         <Navbar conditionSetter={toggle} />
-        <Switch>
-          <Route exact path="/" component={Home}>
-            <Home active={navActive} />
-          </Route>
-        </Switch>
+        <Home active={navActive} />
+        {/* <Switch>
+          <Route exact path="/" component={Home}></Route>
+        </Switch> */}
       </div>
     </Router>
   );
