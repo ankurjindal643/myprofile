@@ -148,7 +148,7 @@ function home(props) {
                     </div>
                   </div>
                   <div className="download-btn mt-5 text-center ">
-                    <a href="https://drive.google.com/u/0/uc?id=1GuXoXfiOeqAjVXn9XlMXrvmkKjLWsxEx&export=download">
+                    <a href="https://drive.google.com/u/0/uc?id=1AxoHwcIPv-HnE_sdoe51gFylmb48_3Cs&export=download">
                       <Button
                         variant="outline-light"
                         // style={{ minWidth: "350px" }}
