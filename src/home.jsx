@@ -148,13 +148,11 @@ function home(props) {
                     </div>
                   </div>
                   <div className="download-btn mt-5 text-center ">
-                    {/* <a
-                      href="
-https://drive.google.com/u/0/uc?id=1epaCyL4F9GfnPR-p-sZu8lILgX0YXfiV&export=download"
-                    > */}
+                   
+                   
                     <a
                       href="
-https://drive.google.com/u/0/uc?id=/1qjBS9a6x_tqyL-2LqME5amfbxdL3giTW&export=download"
+https://drive.google.com/u/0/uc?id=1qjBS9a6x_tqyL-2LqME5amfbxdL3giTW&export=download"
                     >
                       <Button
                         variant="outline-light"
